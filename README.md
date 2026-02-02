@@ -4,8 +4,8 @@ A full-stack web application for managing travel destinations, featuring an Admi
 
 ## Technology Stack
 
-- **Backend**: Java, Spring Boot, Spring Security (JWT), Spring Data JPA, H2 Database.
-- **Frontend**: TypeScript, Angular, CSS.
+- **Backend**: Java 17, Spring Boot 3.2.2, Spring Security (JWT), Spring Data JPA, H2 Database (In-Memory).
+- **Frontend**: TypeScript, Angular 17, CSS.
 - **Tools**: Maven, npm, Postman.
 
 ## Project Structure
@@ -60,11 +60,17 @@ travel-destination-planner/
 
 ## Usage
 
-### Default Credentials (if pre-loaded)
-If `data.sql` is present (check `backend/src/main/resources`), default users may exist. Otherwise, you can register new users via the API or Frontend (if registration UI is enabled).
+### Access and Credentials
 
-- **Admin**: `admin` / `admin` (Common default, verify if implemented)
-- **User**: Register a new user via the "Register" page.
+- **Backend API**: `http://localhost:8080`
+- **Frontend App**: `http://localhost:4200`
+
+#### Login
+- **Admin**:
+  - Username: `admin`
+  - Password: `admin`
+- **User**:
+  - Click "Register" on the login page to create a new account.
 
 ### Features
 - **Admin**:
