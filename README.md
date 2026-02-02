@@ -82,7 +82,3 @@ travel-destination-planner/
   - Search destinations.
   - Add destinations to "Want to Visit" list.
 
-### API Testing (Postman)
-A Postman collection is included for testing backend endpoints directly.
-- File: `backend/Travel-Destination-Planner.postman_collection.json`
-- Import this file into Postman to access pre-configured requests for Auth, Admin, and User operations.
